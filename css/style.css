@@ -261,7 +261,6 @@ p {
 .queda img {
     max-height: 100vh;
     display: flex;
-    min-height: 80vh;
 }
 
 
