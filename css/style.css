@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bungee+Inline&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    overflow-x: hidden;
+    max-width: 100vw;
+    padding: 0;
+}
+
+#a {
+    color: #1E3A5F;
+}
+
+#ham {
+    position: fixed;
+    right: 10px;
+    background-color: #f1f1f1;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-responsive {
+    width: 20vh;
+    height: 10vh;
+}
+
+.collapse {
+    justify-content: space-between;
+}
+
+.img-responsive1 {
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #1E3A5F;
+    /* opacity: 85%; */
+    color: whitesmoke;
+    align-items: center;
+    z-index: 5;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+
+nav a:hover {
+    transform: scale(1.35);
+    background-color: #f1f1f1;
+    color: #1E3A5F;
+    transition: 400ms;
+
+    border-radius: 5px;
+    padding: 1vh;
+}
+
+#top {
+    transition: 450ms;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botoes a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botoes a:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+header {
+    /* background-color: brown; */
+    background-image: url(../img/crise-de-2008-crise-lehman-brothers.jpg);
+    background-size: cover;
+    /* padding: 20px; */
+
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    box-shadow: black 4px 4px 10px;
+    text-align: justify;
+
+}
+
+header p {
+    background-color: rgb(30, 58, 95, 0.80);
+    padding: 2vh;
+    border-radius: 3vh;
+}
+
+
+
+
+
+mark {
+    background-color: rgb(255, 0, 0, 0.5);
+    padding: 1px;
+    color: whitesmoke;
+    border-radius: 3vh;
+}
+
+.rec {
+    font-family: "Bungee Inline", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1vh;
+    color: whitesmoke;
+}
+
+
+
+#h1 {
+    font-family: "Bungee Inline", sans-serif;
+    margin: 2vh;
+    color: white;
+}
+
+#h2 {
+    /* font-size: 6.8vh; */
+    margin: 2vh;
+    margin-top: 4vh;
+
+}
+
+h3 {
+    font-size: 6vh;
+    margin-left: 2vh;
+}
+
+h4 {
+    margin-left: 2vh;
+}
+
+p {
+    font-family: "Kanit", sans-serif;
+    margin: 2vh;
+    text-align: justify;
+}
+
+
+.bolha {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: baseline; */
+    color: #1E3A5F;
+    height: 100%;
+    background: linear-gradient(to bottom, black, #1E3A5F);
+    color: white;
+}
+
+
+.bolha img {
+    max-width: 100vh;
+}
+
+.bolha .rec {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 5vh;
+}
+
+.subprime {
+    /* background-image: url(../img/Subprime.svg); */
+    background-size: cover;
+    height: 100%;
+    display: grid;
+    color: #1E3A5F;
+    grid-template-columns: 1fr 1fr;
+    /* background: linear-gradient(to top right, whitesmoke, #1E3A5F ); */
+    align-items: center;
+}
+
+
+.subprime img {
+    width: 100vh;
+
+    display: flex;
+    max-height: 100vh;
+    min-height: 80vh;
+}
+
+.subprime .rec {
+    color: rgb(255, 255, 255);
+    background-color: #1E3A5F;
+    border-radius: 5vh;
+}
+
+
+.subprime p {
+    /* background-color: rgb(255, 255, 255); */
+    /* color: black; */
+    padding: 2vh;
+}
+
+
+.des {
+    background: linear-gradient(to top, black, #1E3A5F);
+    justify-content: baseline;
+    color: whitesmoke;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+
+.des2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.des .rec {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 5vh;
+}
+
+.queda {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background: linear-gradient(to bottom, black,#1E3A5F ); */
+
+    color: #1E3A5F;
+    height: 100%;
+    align-items: center;
+}
+
+.queda img {
+    max-height: 100vh;
+    display: flex;
+    min-height: 80vh;
+}
+
+
+.queda .rec {
+    color: rgb(255, 255, 255);
+    background-color: #1E3A5F;
+    border-radius: 5vh;
+}
+
+.resposta {
+    display: flex;
+    background: linear-gradient(to top, black, #1E3A5F);
+    color: whitesmoke;
+    height: 100%;
+    align-items: center;
+}
+
+.resposta img {
+    /* width: 100vh; */
+    display: flex;
+
+}
+
+
+.resposta .rec {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 5vh;
+}
+
+.lições {
+    display: flex;
+    justify-content: baseline;
+    color: #1E3A5F;
+    height: 100%;
+
+
+    align-items: center;
+}
+
+.lições img {
+    max-width: 100vh;
+}
+
+
+.lições .rec {
+    color: rgb(255, 255, 255);
+    background-color: #1E3A5F;
+    border-radius: 5vh;
+}
+
+#aparece {
+    display: none;
+}
+
+
+.reveal {
+    opacity: 0;
+    transform: translateX(5vw);
+    /* era 100px, agora usa unidade relativa */
+    transition: all 0.6s ease;
+    will-change: transform, opacity;
+    overflow-x: hidden;
+}
+
+.reveal.left {
+    transform: translateX(-5vw);
+    /* também reduzido */
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#myNav,
+span {
+    display: none;
+}
+
+
+@media (max-width: 1000px) {
+
+
+
+    /* The Overlay (background) */
+    #myNav,
+    span {
+        display: block;
+    }
+
+    span img {
+        margin-top: 2vh;
+        height: 4vh;
+        background-color: rgba(245, 245, 245, 0.5);
+        border-radius: 5px;
+        padding: 0.4vh;
+    }
+
+    span {
+        display: flex;
+        position: fixed;
+        right: 10px;
+        color: red;
+
+    }
+
+    #menu {
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width: 980px) {
+    header {
+        height: 100%;
+    }
+
+    #h1 {
+        margin-top: 15vh;
+    }
+
+    h1 {
+        font-size: 3vh;
+        font-family: "Bungee Inline", sans-serif;
+    }
+
+    .des2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bolha {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subprime {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .queda,
+    .resposta {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .lições {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #aparece {
+        display: block;
+    }
+
+    #some {
+        display: none;
+    }
+
+
+
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
