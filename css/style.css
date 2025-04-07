@@ -209,11 +209,9 @@ p {
 
 
 .subprime img {
-    width: 100vh;
-
+    max-width: 100vh;
     display: flex;
     max-height: 100vh;
-    min-height: 80vh;
 }
 
 .subprime .rec {
